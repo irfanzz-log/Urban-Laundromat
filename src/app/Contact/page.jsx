@@ -1,5 +1,6 @@
 import Navigation from '@/src/components/Navigation.jsx';
 import Footer from '@/src/components/Footer.jsx';
+import Floating from '@/src/components/Floating.jsx';
 
 export default function Contact() {
     return (
@@ -33,7 +34,7 @@ export default function Contact() {
                     </div>
                 </div>
             </section>
-
+            <Floating />
             <Footer />
         </>
     )

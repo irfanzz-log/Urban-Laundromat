@@ -1,6 +1,7 @@
 import Navigation from '@/src/components/Navigation.jsx';
 import Footer from '@/src/components/Footer.jsx';
-import items from '@/public/data/data.json'
+import items from '@/public/data/data.json';
+import Floating from '@/src/components/Floating.jsx';
 
 export default function Location() {
     return (
@@ -30,7 +31,7 @@ export default function Location() {
                     </div>
                 </div>
             </section>
-
+            <Floating />
             <Footer />
         </>
     )

@@ -1,6 +1,7 @@
 import Navigation from '@/src/components/Navigation.jsx';
 import Footer from '@/src/components/Footer.jsx';
 import CompanyProfile from '@/src/components/CompanyProfile.jsx';
+import Floating from '@/src/components/Floating.jsx';
 
 export default function About() {
     return (
@@ -48,6 +49,7 @@ export default function About() {
                     </div>
                 </div>
             </section>
+            <Floating />
             <Footer />
         </>
     )
