@@ -3,6 +3,7 @@ import Hero from '@/src/components/Hero.jsx';
 import Card from '@/src/components/Card.jsx';
 import CompanyProfile from '@/src/components/CompanyProfile.jsx';
 import Footer from '@/src/components/Footer.jsx';
+import Floating from '@/src/components/Floating.jsx';
 
 
 export default function Home() {
@@ -49,6 +50,8 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <Floating />
 
       <Footer />
     </>
