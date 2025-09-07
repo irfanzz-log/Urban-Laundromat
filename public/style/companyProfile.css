@@ -1,0 +1,46 @@
+#companyProfile {
+    background-color: whitesmoke;
+    margin-top: 10%;
+    width: 100%;
+    overflow-x: hidden !important;
+}
+
+.companyBody {
+    display: flex;
+    justify-content: center;
+}
+
+.companyPic {
+    display: flex;
+    width: 350px;
+    height: 400px;
+    background-image: url('/img/images/heropic.jpg');
+    background-position: center;
+    background-size:  100% 100%;
+    background-repeat: no-repeat;
+
+}
+
+@media (max-width:980px) {
+    .companyPic {
+        width: 100%;
+    }
+
+    .companyBody {
+        text-align: center;
+    }
+
+    .text-head {
+        font-size: 2rem;
+    }
+
+    .companyInformation {
+        margin-top: 10%;
+    }
+}
+
+@media (min-width:979px) {
+    .companyPic {
+        padding: 0px !important;
+    }
+}

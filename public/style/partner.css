@@ -1,0 +1,25 @@
+.partnerbody {
+    width: 100%;
+    display: flex;
+    text-align: center;
+}
+
+.partnerHead {
+    text-align: center;
+}
+
+.partnerImg {
+    display: flex;
+    justify-content: center;
+
+}
+
+.partnerIcon {
+    max-width: 20%;
+}
+
+@media (max-width:600px) {
+    .partnerIcon {
+        max-width: 40%;
+    }
+}

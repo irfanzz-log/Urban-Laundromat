@@ -1,0 +1,125 @@
+.nav-list, .nav-list > .nav-ul, .nav-list > li, .nav-list > a {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    position: fixed !important;
+    width: 100%;
+    background-color: white;
+    box-shadow: 1px 1px 5px gray;
+    z-index: 999;
+    top: 0;
+}
+
+.nav-content {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.nav-list, .partnership {
+    display: flex;
+    align-items: center;
+}
+
+.nav-ul {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-ul > li > a:hover {
+    color: rgb(1, 117, 53);
+}
+
+.icon {
+    max-width: 80px;
+    padding: 10px;
+}
+
+/* delete anchor text-decoration dan list-style */
+a {
+    text-decoration: none;
+    color: rgba(0, 153, 68, 1);
+}
+
+/* partnership-text*/
+.partnership {
+    background-color: rgba(0, 153, 68, 1);
+    padding: 1rem;
+}
+.partnership-text {
+    color: white;
+}
+
+.hamburger {
+    display: none;
+    margin-top: 0.5rem;
+}
+
+.ham {
+    margin-top: -12px;
+}
+
+.ham::after {
+    display: inline-block;
+    content: '';
+    width: 35px;
+    height: 5px;
+    background-color: rgba(0, 153, 68, 1);
+    border-radius: 2px;
+}
+
+.hiddenList {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    left: 0;
+    top: -100%;
+
+}
+
+.nav-hidden {
+    padding: 0;
+}
+
+.visibleList {
+    top: -100%;
+    display: none;
+}
+
+@media (max-width:600px) {
+    .nav-list {
+        display: none;
+    }
+    .partnership {
+        display: none;
+    }
+    .hamburger {
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        right: 2rem;
+        top: 0.6rem;
+    }
+    .visibleList {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding-top: 5rem;
+    z-index: 1;
+    transition: all 0.8s ease;
+
+}
+}

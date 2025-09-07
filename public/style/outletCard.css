@@ -1,0 +1,59 @@
+#outletLocation {
+    margin-top: 7rem;
+}
+
+.outletContentHead {
+    display: flex;
+    justify-content: center;
+}
+
+.outletContentHeadText {
+    color: white;
+    background-color: rgba(0, 153, 68, 1);
+    max-width: fit-content;
+    padding: 0.8rem 1.5rem;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.outletContentBody {
+    display: flex;
+    justify-content: center;
+}
+
+.outletCard {
+    background-color: whitesmoke;
+    padding: 0;
+    box-shadow: 1px 1px 4px gray;
+    transition: transform 0.3s ease-in-out;
+}
+
+.outletCard:hover {
+    transform: translateY(-10px);
+    box-shadow: 2px 2px 7px black;
+}
+
+.cardImg {
+    max-width: 100%;
+}
+
+.outletCardInfo {
+    text-align: center;
+}
+
+.cardTextHead {
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgba(0, 153, 68, 1);
+    margin-bottom: 0;
+}
+
+.cardText {
+    font-size: 0.8rem;
+}
+
+@media (max-width:600px) {
+    .outletCard {
+        margin-top: 2rem;
+    }
+}

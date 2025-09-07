@@ -1,0 +1,21 @@
+#card-body {
+    margin-top: 4%;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cards-img {
+    max-width: 10rem;
+}
+
+.cards-content {
+    text-align: center;
+}
+
+.text-header {
+    color: rgba(0, 153, 68, 1);
+}

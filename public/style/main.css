@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.fw-bold {
+    color: rgba(0, 153, 68, 1);
+    
+}
+
+.text-head {
+    color: rgba(0, 153, 68, 1);
+    font-weight: bold;
+    font-size: 3.5rem;
+}
+
+/*---------------------*/

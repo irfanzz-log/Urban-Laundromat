@@ -1,0 +1,43 @@
+#aboutInfo {
+    background-color: rgba(0, 153, 68, 1);
+    color: white;
+}
+
+#aboutInfo2 {
+    background-color: whitesmoke;
+    color: rgba(0, 153, 68, 1);
+
+}
+
+.aboutInfoBody {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+}
+
+.aboutInfoHead > h4 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    max-width: 600px;
+}
+
+.aboutInfoText {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+@media (max-width:600px) {
+    .aboutInfoHead > h4 {
+        font-size: 2rem;
+        max-width: 300px;
+    }
+    .aboutInfoText {
+        font-size: 1rem;
+    }
+}

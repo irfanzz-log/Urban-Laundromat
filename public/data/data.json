@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "data": {
+            "outletName": "Urban Graha Laundromat",
+            "locationName": "Graha raya bintaro, Tangerang",
+            "text": "Sudah dipercaya oleh ribuan pelanggan di kota Bandung dan Jakarta, kami bangga menjadi pilihan utama dalam layanan laundry berkualitas. Reputasi kami dibangun atas dasar kepuasan pelanggan yang tinggi, hasil cucian yang bersih dan wangi, serta layanan yang ramah dan profesional. Kepercayaan yang Anda berikan adalah komitmen kami untuk terus memberikan yang terbaik."
+        }
+    },
+
+    {
+        "id": 2,
+        "data": {
+            "outletName": "Urban Kelapa Dua Laundromat",
+            "locationName": "Kelapa dua, Tangerang",
+            "text": "Sudah dipercaya oleh ribuan pelanggan di kota Bandung dan Jakarta, kami bangga menjadi pilihan utama dalam layanan laundry berkualitas. Reputasi kami dibangun atas dasar kepuasan pelanggan yang tinggi, hasil cucian yang bersih dan wangi, serta layanan yang ramah dan profesional. Kepercayaan yang Anda berikan adalah komitmen kami untuk terus memberikan yang terbaik."
+        }
+    }
+    
+]

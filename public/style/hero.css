@@ -1,0 +1,38 @@
+#body-information {
+    width: 100%;
+    height: 70vh;
+}
+
+.hero-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.0)), url('/img/images/heropic.jpg');
+    background-position: left;
+}
+
+.hero-body-content {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+@media (min-width:1000px) {
+    .hero-body-content {
+        margin-left: -20%;
+    }
+}
+
+.hero-body-text {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.hero-action {
+    display: inline-block !important;
+    max-width: 50%;
+    background-color: rgba(0, 153, 68, 1);
+    color: white;
+}
