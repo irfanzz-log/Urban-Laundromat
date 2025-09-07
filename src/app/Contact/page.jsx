@@ -2,6 +2,11 @@ import Navigation from '@/src/components/Navigation.jsx';
 import Footer from '@/src/components/Footer.jsx';
 import Floating from '@/src/components/Floating.jsx';
 
+export const metadata = {
+  title: "Contact | Urban Laundromat - Auto Pilot Laundry",
+  description: "Laundry self service autopilot",
+};
+
 export default function Contact() {
     return (
         <>

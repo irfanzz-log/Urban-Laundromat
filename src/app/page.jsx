@@ -5,8 +5,13 @@ import CompanyProfile from '@/src/components/CompanyProfile.jsx';
 import Footer from '@/src/components/Footer.jsx';
 import Floating from '@/src/components/Floating.jsx';
 
+export const metadata = {
+  title: "Home | Urban Laundromat - Auto Pilot Laundry",
+  description: "Laundry self service autopilot",
+};
 
 export default function Home() {
+
   return (
     <>
       <Navigation />

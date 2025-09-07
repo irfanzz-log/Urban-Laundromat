@@ -3,6 +3,11 @@ import Footer from '@/src/components/Footer.jsx';
 import items from '@/public/data/data.json';
 import Floating from '@/src/components/Floating.jsx';
 
+export const metadata = {
+  title: "Location | Urban Laundromat - Auto Pilot Laundry",
+  description: "Laundry self service autopilot",
+};
+
 export default function Location() {
     return (
         <>
