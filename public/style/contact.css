@@ -31,6 +31,9 @@
         max-width: 80%;
         margin-top: 2rem;
     }
+    .contactBodyContent {
+        margin: 0;
+    }
 }
 
 .contactCard:hover {

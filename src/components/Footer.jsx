@@ -24,10 +24,10 @@ export default function Footer() {
                                 </div>
                                 <div className="menuBody">
                                     <ul>
-                                        <li><Link className='text-muted' href='#'>Home</Link></li>
-                                        <li><Link className='text-muted' href='#'>Abous</Link></li>
-                                        <li><Link className='text-muted' href='#'>Location</Link></li>
-                                        <li><Link className='text-muted' href='#'>Contact</Link></li>
+                                        <li><Link className='text-muted' href='/'>Home</Link></li>
+                                        <li><Link className='text-muted' href='/About'>Abous</Link></li>
+                                        <li><Link className='text-muted' href='/Location'>Location</Link></li>
+                                        <li><Link className='text-muted' href='/Contact'>Contact</Link></li>
                                     </ul>
                                 </div>
                             </div>
